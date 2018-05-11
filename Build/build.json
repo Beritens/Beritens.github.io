@@ -1,6 +1,6 @@
 {
-"companyName": "Ictoan",
-"productName": "oneSecond",
+"companyName": "DefaultCompany",
+"productName": "PongBreakout",
 "dataUrl": "build.data.unityweb",
 "asmCodeUrl": "build.asm.code.unityweb",
 "asmMemoryUrl": "build.asm.memory.unityweb",

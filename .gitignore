@@ -1,5 +1,14 @@
-# Mac auto-generated .DS_Store files
-.DS_STORE
+# hidden files
+.*
+!.github
 
-# Webstorm project metadata
-.idea/
+# jekyll cache
+_site
+vendor
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json

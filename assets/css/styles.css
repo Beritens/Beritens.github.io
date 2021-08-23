@@ -43,8 +43,8 @@ a.nav-item:hover {
 }
 
 .avatar{
-	height:200px;
-	border-radius: 50%;
+	height:250px;
+	/*border-radius: 50%;*/
 }
 
 .intro-description{
@@ -59,8 +59,9 @@ a.nav-item:hover {
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
 	max-width: 256px;
+	max-height: 256px;
+	
 }
 
 .project-text {

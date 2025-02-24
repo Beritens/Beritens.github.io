@@ -7,13 +7,7 @@ tags: [game, extension, web]
 # Test <img alt="🏁" class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded" style="height: 24px; width: 24px;" src="https://www.youtube.com/s/gaming/emoji/7ff574f2/emoji_u1f3c1.png">
 
 
-<script>
-function addScript() {
-    let script = document.createElement('script');
-    script.src = "{{ site.baseurl }}{% link assets/js/content.js %}"; // Replace with your script URL
-    document.body.appendChild(script);
-}
-</script>
+<script src = "/assets/js/add_script.js"></script>
 
 
 This is just a test page. \

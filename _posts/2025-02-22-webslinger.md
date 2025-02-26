@@ -9,7 +9,7 @@ tags: [game, extension, web]
 
 <script src = "/assets/js/add_script.js"></script>
 
-Don't you think websites have become a bit broing. \
+Don't you think websites have become a bit boring? \
 Don't you rather want to play a game instead of actually reading? \
 Probably not, but here's an extension that does it anyway.
 
@@ -17,8 +17,8 @@ Probably not, but here's an extension that does it anyway.
 
 This is just a test page to play around with the mechanics without \
 the need of downloading the extension. \
-And it is still early in developement...\
-A lot will change but I will keep the old version running on this page\
+And it is still early in development...\
+A lot will change, but I will keep the old version running on this page\
 to actually experience what change. Basically a very interactive devlog.\
 The extension allows you to jump and swing around on any webpage.
 
@@ -34,7 +34,7 @@ The controls are very much inspired by the "game getting over it."
 
 <br>
 
-Try  to get familliar with the controls. Here's a challange: jump &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  over this gap. You can do this!
+Try  to get familiar with the controls. Here's a challenge: jump &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  over this gap. You can do this!
 
 <br>
 
@@ -70,7 +70,7 @@ Now you can cross even bigger gaps&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp
 
 <br>
 
-That's it. A simple concept but imagine all the possiblities. \
+That's it. A simple concept but imagine all the possibilities. \
 Youtube comments filled with levels. \
 A dedicated subreddit where where levels can be rated. \
 Just swinging around on random pages when you are bored. \
@@ -125,10 +125,10 @@ To introduce some difficulty, you are not allowed to hook special characters:
        #                                                                             #
        #                                                                             #
        #                                                                             #
-       # Finaly. The ⏱️️ emoji starts a timer and the goal is at the top of the page. #
+       # Finally. The ⏱️️ emoji starts a timer and the goal is at the top of the page.#
        # You know what to do!                                                         #
        ################################################################################
 </pre>
 
 That's it for now. This is a small introduction to the game.
-There are many interesting challenges to make this work in the browser and everything builds on a custom physics engine, so there are definitely more topics worth writing about. Stay tuned! (maybe)
+There are many interesting challenges to making this work in the browser, and everything builds on a custom physics engine, so there are definitely more topics worth writing about. Stay tuned! (maybe)

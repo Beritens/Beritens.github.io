@@ -1,7 +1,7 @@
 ---
-title: Web slinger
+title: Web slinger (with demo)
 date: 2025-02-22 12:00:00 +100
-categories: [devlog]
+categories: [showcase]
 tags: [game, extension, web]
 ---
 # A fun little browser extension <img alt="🏁" class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded" style="height: 24px; width: 24px;" src="https://www.youtube.com/s/gaming/emoji/7ff574f2/emoji_u1f3c1.png">

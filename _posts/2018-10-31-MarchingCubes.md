@@ -9,7 +9,7 @@ tags: [game, web]
 ![image](https://img.itch.zone/aW1hZ2UvMzI0MjE3LzE2NDM4NTMucG5n/original/RlqI13.png)
 
 This might be the project that made me fall in love with Computer Graphics.
-At this point I was still in school and somewhere online I stumbled upon the the Marching-Cubes Algorithm.
+At this point, I was still in school, and somewhere online I stumbled upon the Marching-Cubes Algorithm.
 Being able to generate worlds with just some math was fascinating for me.
 
-This also made me think a lot about performance. Generating terrains on the fly is quite expensive (at least the way I did it back then). To still accomplish acceptable framerates I had to learn abot multithreading. Fun times.
+This also made me think a lot about performance. Generating terrains on the fly is quite expensive (at least the way I did it back then). To still accomplish acceptable framerates, I had to learn about multithreading. Fun times.

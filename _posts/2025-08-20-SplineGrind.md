@@ -51,7 +51,7 @@ The game!
 <div class="loader"></div>
 <canvas id="bevy" alt="App" width="100%"></canvas>
 
-In the Computer Graphics 2 course at TUB, we discussed B-splines. To become more familiar with the concept (and because I had a fun game idea) I decided to experiment with a game mechanic using B-splines.
+In the Computer Graphics 2 course at TUB, we discussed B-splines. To become more familiar with the concept (and because I had a fun game idea), I decided to experiment with a game mechanic using B-splines.
 
 Instead of directly controlling the player, the mouse influences the world around them. Over time, you develop a sense of how to use this mechanic to make the player move and jump. I think this could make for a really fun platformer.
 

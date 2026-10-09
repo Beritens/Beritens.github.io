@@ -1,0 +1,46 @@
+---
+layout: portfolio
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <h1 id="hero-title">Portfolio<span class="hero-period">.</span></h1>
+  </div>
+</section>
+
+<section id="work" class="work-section" aria-labelledby="work-title">
+  <div class="work-heading">
+    <h2 id="work-title">Projects <span class="work-count">{{ site.posts.size }}</span></h2>
+    <div class="project-filters" role="group" aria-label="Filter projects" hidden>
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="game" aria-pressed="false">Games</button>
+      <button type="button" data-filter="experiment" aria-pressed="false">Experiments</button>
+    </div>
+  </div>
+  <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+  <div class="project-grid">
+    {% for project in site.posts %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+
+{% if site.data.artworks.size > 0 %}
+<section id="art" class="art-section" aria-labelledby="art-title">
+  <div class="work-heading">
+    <h2 id="art-title">Art <span class="work-count">{{ site.data.artworks.size }}</span></h2>
+  </div>
+  <div class="art-gallery">
+    {% for artwork in site.data.artworks %}
+    <figure class="artwork">
+      <a href="{{ artwork.image | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ artwork.image | relative_url }}" alt="{{ artwork.alt | escape }}" width="{{ artwork.width }}" height="{{ artwork.height }}" loading="lazy" decoding="async">
+      </a>
+      {% if artwork.title %}<figcaption>{{ artwork.title }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+  <dialog id="art-lightbox" class="art-lightbox" aria-label="Artwork preview">
+    <button type="button" class="art-lightbox-close" aria-label="Close image" autofocus>×</button>
+  </dialog>
+</section>
+{% endif %}

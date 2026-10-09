@@ -1,7 +1,10 @@
 # The Site Configuration
 
-# Import the theme
-theme: jekyll-theme-chirpy
+# Custom portfolio layouts; keep Jekyll for the existing project content.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -19,11 +22,11 @@ title: Ben Richter # the main title
 tagline: Portfolio  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Just a small webpage where I'm goind to post some dev logs and stuff
+  Ben Richter's portfolio.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://beritens.github.io"
 
 github:
   username: Beritens # change to your GitHub username
@@ -138,7 +141,7 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
@@ -146,8 +149,6 @@ pwa:
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
-paginate: 10
 
 # The base URL of your site
 baseurl: ""

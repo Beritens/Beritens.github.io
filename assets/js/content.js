@@ -236,11 +236,12 @@ function parseColor(input) {
         }
     }, 10);
 
-    console.log("test");
-    // module.default(); // If it's a named export, change to `module.init();`
-    const wasm = await module.default("/assets/game/out/web_slinger_bg.wasm"); // If it's a named export, change to `module.init();`
-    console.log("test");
-    console.log(wasm);
+    try {
+        await module.default();
+    } catch (error) {
+        // Winit uses this exception to hand its event loop to the browser.
+        if (!String(error).includes("Using exceptions for control flow")) throw error;
+    }
 
 
     // async function run() {

@@ -3,53 +3,20 @@ title: Spline Grind (with demo)
 date: 2025-08-20 12:00:00 +100
 categories: [showcase]
 tags: [game, web]
+portfolio_title: Spline Grind
+kind: experiment
+thumbnail: /assets/img/projects/spline-grind.png
+thumbnail_alt: Spline Grind gameplay with a ball above a curved line.
+thumbnail_class: spline-thumb
+demo: true
 ---
 
 
-<style>
-
-    canvas{
-        width: 100% !important;
-        aspect-ratio: 2 !important;
-        height: auto !important;
-    }
-
-    .loader {
-        border: 16px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 16px solid #3498db;
-        width: 120px;
-        height: 120px;
-        position: absolute;
-        z-index: -999;
-        -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;
-    }
-
-    @-webkit-keyframes spin {
-        0% {
-            -webkit-transform: rotate(0deg);
-        }
-
-        100% {
-            -webkit-transform: rotate(360deg);
-        }
-    }
-
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-</style>
-
 The game!
-<div class="loader"></div>
-<canvas id="bevy" alt="App" width="100%"></canvas>
+<div class="demo-frame" id="spline-demo">
+  <div class="demo-loader" role="status">Loading Spline Grind…</div>
+  <canvas id="bevy" width="1200" height="600" tabindex="0" aria-label="Spline Grind interactive game. Move the mouse near the line to move the ball.">Your browser does not support the game canvas.</canvas>
+</div>
 
 In the Computer Graphics 2 course at TUB, we discussed B-splines. To become more familiar with the concept (and because I had a fun game idea), I decided to experiment with a game mechanic using B-splines.
 

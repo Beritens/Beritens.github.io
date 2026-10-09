@@ -1,0 +1,17 @@
+{% assign project = include.project %}
+<article class="project-card" data-kind="{{ project.kind | default: 'experiment' }}">
+  <a class="project-link" href="{{ project.url | relative_url }}">
+    <div class="project-image {{ project.thumbnail_class }}">
+      {% if project.thumbnail %}
+        <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.thumbnail_alt | escape }}" width="960" height="600" {% if forloop.index > 2 %}loading="lazy"{% else %}fetchpriority="high"{% endif %} decoding="async">
+      {% else %}
+        <span class="thumbnail-fallback" aria-hidden="true">{{ project.title | slice: 0, 1 }}</span>
+      {% endif %}
+      {% if project.demo %}<span class="demo-badge"><span aria-hidden="true">▶</span> Demo</span>{% endif %}
+      <span class="project-open" aria-hidden="true">↗</span>
+    </div>
+    <div class="project-details">
+      <div class="project-title-line"><h3>{{ project.portfolio_title | default: project.title }}</h3><span class="project-year">{{ project.date | date: '%Y' }}</span></div>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,36 @@
+# Original artwork from Beritens/vault, Artworks/.
+- image: /assets/img/art/astronaut.jpeg
+  alt: "An astronaut falling through a fiery pink-red atmosphere above a blue planet."
+  width: 1067
+  height: 1536
+  source: "Artworks/Digital/Untitled_Artwork.jpeg"
+
+- image: /assets/img/art/pencil-portrait.jpeg
+  alt: "Pencil drawing of a man wearing a shirt and tie."
+  width: 1152
+  height: 1536
+  source: "Artworks/Pencil/IMG_3474.jpeg"
+
+- image: /assets/img/art/watercolor-4007.jpeg
+  alt: "Watercolor portrait of a blonde woman in a gray jacket, three-quarter view."
+  width: 1152
+  height: 1536
+  source: "Artworks/Watercolor/IMG_4007.jpeg"
+
+- image: /assets/img/art/watercolor-3989.jpeg
+  alt: "Watercolor portrait of a dark-haired woman, frontal view."
+  width: 1152
+  height: 1536
+  source: "Artworks/Watercolor/IMG_3989.jpeg"
+
+- image: /assets/img/art/watercolor-3866.jpeg
+  alt: "Watercolor portrait of a woman in profile with a hoop earring."
+  width: 1152
+  height: 1536
+  source: "Artworks/Watercolor/IMG_3866.jpeg"
+
+- image: /assets/img/art/watercolor-3545.jpeg
+  alt: "Watercolor portrait of a bald man with glasses and a raised hand."
+  width: 1536
+  height: 1152
+  source: "Artworks/Watercolor/IMG_3545.jpeg"

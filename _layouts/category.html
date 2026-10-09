@@ -1,0 +1,8 @@
+---
+layout: portfolio
+---
+<section class="standard-page">
+  <a class="back-link" href="{{ '/' | relative_url }}#work">← All work</a>
+  <h1>{{ page.title }}<span class="hero-period">.</span></h1>
+  <div class="project-grid">{% for project in page.posts %}{% include project-card.html project=project %}{% endfor %}</div>
+</section>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090b09">
+    {% seo %}
+    {% feed_meta %}
+    <link rel="icon" type="image/png" href="{{ '/assets/img/B3.png' | relative_url }}">
+    <link rel="preload" href="{{ '/assets/fonts/manrope.ttf' | relative_url }}" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <script src="{{ '/assets/js/portfolio.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrapper">
+      <a class="identity" href="{{ '/' | relative_url }}" aria-label="Ben Richter — home">
+        <img class="identity-logo" src="{{ '/assets/img/B3.png' | relative_url }}" alt="" width="1000" height="1000">
+        <span class="identity-name">Ben Richter</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a class="nav-work" href="{{ '/' | relative_url }}#work"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Work<span class="nav-dot" aria-hidden="true"></span></a>
+        {% if site.data.artworks.size > 0 %}<a href="{{ '/' | relative_url }}#art">Art</a>{% endif %}
+        <a href="https://github.com/{{ site.github.username }}">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="contact-link" href="mailto:{{ site.social.email }}">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main" class="wrapper" tabindex="-1">{{ content }}</main>
+    <footer class="site-footer wrapper">
+      <a class="footer-name" href="{{ '/' | relative_url }}">Ben Richter</a>
+      <a href="mailto:{{ site.social.email }}">Contact <span aria-hidden="true">↗</span></a>
+      <span class="copyright">© {{ 'now' | date: '%Y' }}</span>
+    </footer>
+  </body>
+</html>

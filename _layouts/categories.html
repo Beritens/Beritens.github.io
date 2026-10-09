@@ -1,0 +1,8 @@
+---
+layout: portfolio
+---
+<section class="standard-page">
+  <a class="back-link" href="{{ '/' | relative_url }}#work">← All work</a>
+  <h1>Categories<span class="hero-period">.</span></h1>
+  <ul class="taxonomy-list">{% assign categories = site.categories | sort %}{% for category in categories %}<li><a href="{{ category[0] | slugify | prepend: '/categories/' | append: '/' | relative_url }}">{{ category[0] }} <span>{{ category[1].size }}</span> ↗</a></li>{% endfor %}</ul>
+</section>

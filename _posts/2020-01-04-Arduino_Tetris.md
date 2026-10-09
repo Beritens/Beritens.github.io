@@ -3,6 +3,10 @@ title: Arduino Tetris
 date: 2020-01-04 12:00:00 +100
 categories: [showcase]
 tags: [game, web]
+kind: game
+thumbnail: /assets/img/projects/arduino-tetris.jpg
+thumbnail_alt: Tetris running on a small screen connected to an Arduino.
+thumbnail_class: arduino-thumb
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YO13QOJmGeg?si=3ya4znitzE0ewCqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -12,4 +16,4 @@ It was a great change of pace to also work with the hardware, such as wiring the
 Working close to the hardware was a lot of fun, and it was delightful to see the nostalgia on the faces of parents and teachers who tried it.
 
 
-Also, this was my first experience working with C++: (https://github.com/Beritens/Arduino_Tetris)[https://github.com/Beritens/Arduino_Tetris]
+Also, this was my first experience working with C++: [GitHub](https://github.com/Beritens/Arduino_Tetris)

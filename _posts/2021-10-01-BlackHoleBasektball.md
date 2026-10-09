@@ -3,6 +3,9 @@ title: Black Hole Basketball
 date: 2021-10-01 12:00:00 +100
 categories: [showcase]
 tags: [game, web]
+kind: game
+thumbnail: /assets/img/projects/black-hole-basketball.jpg
+thumbnail_alt: Black Hole Basketball, a colorful basketball puzzle game.
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TviJZazU2cw?si=0QSgKZB1-dcb6jl9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -10,7 +13,7 @@ tags: [game, web]
 
 A fun physics-based puzzle game
 
-I worked on this project during the time between school and university. Previous games I made used a lot of physics, but it always bothered me that Unity's physics weren't deterministic.
+I worked on this project during the time between school and university. Previous games I made used a lot of physics, but it always bothered me that Unity's physics wasn't deterministic.
 
 That means that with the same initial conditions, the simulation could sometimes play out differently.
 I then stumbled upon a hack that allows for determinism in Unity, and I used this knowledge to make a game.
@@ -21,4 +24,4 @@ This starts simple but gets very tricky in the end.
 I went all out with the art. I had a lot of fun designing the characters and the environment. I even came up with a fun story featuring a scientist who just wants to use his invention to help his son play some basketball.
 
 
-I published this on the Google Play Store and got a few downloads and nice comments, sadly, a few years later, it got removed due to some policy issues.
+I published this on the Google Play Store and got a few downloads and nice comments. Sadly, a few years later, it got removed due to some policy issues.

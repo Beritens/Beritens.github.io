@@ -20,6 +20,7 @@
       </a>
       <nav aria-label="Main navigation">
         <a class="nav-work" href="{{ '/' | relative_url }}#work"{% if page.layout == 'home' %} aria-current="page"{% endif %}>Work<span class="nav-dot" aria-hidden="true"></span></a>
+        <a class="nav-wip" href="{{ '/wip/' | relative_url }}"{% if page.url == '/wip/' %} aria-current="page"{% endif %}>WIP</a>
         {% if site.data.artworks.size > 0 %}<a href="{{ '/' | relative_url }}#art">Art</a>{% endif %}
         <a href="https://github.com/{{ site.github.username }}">GitHub <span aria-hidden="true">↗</span></a>
         <a class="contact-link" href="mailto:{{ site.social.email }}">Contact <span aria-hidden="true">↗</span></a>

@@ -1,0 +1,36 @@
+---
+layout: portfolio
+title: WIP — WallWalker
+description: WallWalker is my current game project. Play the latest Godot prototype in your browser.
+permalink: /wip/
+project_title: WallWalker
+game_path: /assets/games/wallwalker/index.html
+---
+<article class="wip-page">
+  <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Portfolio</a>
+  <header class="project-header wip-header">
+    <p class="eyebrow"><span class="wip-badge">Work in progress</span> Currently building</p>
+    <h1>{{ page.project_title }}<span class="hero-period">.</span></h1>
+    <p class="wip-description">My current game project: a Godot platformer about walking along walls and jumping between surfaces. Try the latest prototype below.</p>
+  </header>
+
+  <section class="wip-demo" aria-label="Play {{ page.project_title }}">
+    <div class="wip-player" id="wallwalker-player" data-game-src="{{ page.game_path | relative_url }}" data-game-title="{{ page.project_title }} playable prototype">
+      <div class="wip-start">
+        <p class="eyebrow">Latest playable build</p>
+        <a class="wip-play" href="{{ page.game_path | relative_url }}"><span aria-hidden="true">▶</span> Play {{ page.project_title }}</a>
+        <p class="wip-start-note">Keyboard required · Loads when you press play</p>
+      </div>
+    </div>
+    <div class="wip-toolbar">
+      <p class="wip-controls"><span><kbd>A</kbd> / <kbd>D</kbd> Turn Around</span><span><kbd>Space</kbd> Jump</span></p>
+      <div class="wip-actions">
+        <button class="wip-restart" type="button" aria-controls="wallwalker-player" hidden>Restart <span aria-hidden="true">↻</span></button>
+        <button class="wip-fullscreen" type="button" aria-controls="wallwalker-player" hidden>Fullscreen <span aria-hidden="true">⤢</span></button>
+        <a class="wip-open" href="{{ page.game_path | relative_url }}" target="_blank" rel="noopener">Open game <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <p class="wip-note" role="status">Click inside the game to focus. This is an early prototype; expect things to change.</p>
+  </section>
+</article>
+<script src="{{ '/assets/js/wip.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
